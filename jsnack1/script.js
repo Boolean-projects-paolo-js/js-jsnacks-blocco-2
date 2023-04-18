@@ -15,11 +15,11 @@ for (let i = 0; i < 6; i++) {
     number = prompt("scrivi un numero");
 
 
-    if(number % 2 == 'pari') {
+    if(number % 2 == 0) {
         console.log('pari', number);
     }
 
-    else if(number % 2 == 'dispari') {
+    else if(number % 2 == 1) {
         verifica = true;
         console.log('dispari', number);
         parseInt(myArr.push(number));
